@@ -39,6 +39,7 @@ exports.createPages = ({ graphql, actions }) => {
           node {
             frontmatter {
               path
+              synopsis
             }
             fields {
               slug
@@ -55,6 +56,7 @@ exports.createPages = ({ graphql, actions }) => {
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.path,
+        synopsis: node.frontmatter.synopsis,
         component: blogPostTemplate,
         slug: node.fields.slug,
         context: {},

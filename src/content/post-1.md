@@ -3,6 +3,7 @@ title: "Example Title"
 date: "2019-03-17"
 draft: false
 path: "/blog/example-title"
+synopsis: "test"
 ---
 # H1
 
@@ -40,6 +41,3 @@ console.log(foo);
 | Hello | World |
 |-------|------ |
 | Foo   | Bar   |
-
-
-

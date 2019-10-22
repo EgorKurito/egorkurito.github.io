@@ -3,6 +3,7 @@ title: "Code Example"
 date: "2019-21-10"
 draft: false
 path: "/blog/code-example-2"
+synopsis: "test"
 ---
 
 ## An Code example with PrismJS

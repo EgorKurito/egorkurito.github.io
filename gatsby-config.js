@@ -4,6 +4,10 @@ module.exports = {
     subtitle: `Developer & AI Researcher`,
     description: `Just do it!`,
     author: `@egorkurito`,
+    github: `https://github.com/EgorKurito`,
+    vk: `https://vk.com/egorkurito`,
+    linkedin: `https://www.linkedin.com/in/egorkurito/`,
+    facebook: `https://www.facebook.com/kuritoegor`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

@@ -42,7 +42,7 @@ const Layout = ({ children }) => (
         <Content>
           <main>{children}</main>
           <Footer>
-            © {new Date().getFullYear()}, Egor Kurito
+            © {new Date().getFullYear()}
             {` `}
           </Footer>
         </Content>

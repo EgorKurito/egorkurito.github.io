@@ -43,7 +43,7 @@ const IndexPage = ({ data }) => {
               <div>
                 <ArticleDate>{node.frontmatter.date}</ArticleDate>
               </div>
-              <p>{node.excerpt}</p>
+              <p>{node.frontmatter.synopsis}</p>
             </Link>
           </div>
         ))}
@@ -70,6 +70,7 @@ export const query = graphql`
             title
             date(formatString: "DD MMMM, YYYY")
             path
+            synopsis
           }
           fields {
             slug
