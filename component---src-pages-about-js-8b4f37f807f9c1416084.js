@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[4],{223:function(t,e,n){"use strict";n.r(e);var u=n(1),a=(n(0),n(220)),b=n(219);e.default=function(){return Object(u.b)(a.a,null,Object(u.b)(b.a,{title:"About",keywords:["gatsby","application","react"]}),Object(u.b)("h1",null,"About"),Object(u.b)("p",null,"You just hit a route that doesn't exist... the sadness."))}}}]);
+//# sourceMappingURL=component---src-pages-about-js-8b4f37f807f9c1416084.js.map
