@@ -4,7 +4,7 @@ code {
 
 body {
   margin: 0;
-  font-family: 'Nunito', 'Avenir', 'Helvetica', 'sans-serif';
+  font-family: 'Nunito', 'Avenir',  'Open Sans', 'sans-serif';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -655,4 +655,19 @@ a, a:hover {
 	color: #ffffff;
 	background-color: #000;
 	border: 1px solid #000;
+}
+
+.cursor {
+  display: inline-block;
+  width: 10px;
+  height: 2.5rem;
+  background: #fe5186;
+  margin-left: 8px;
+  border-radius: 1px;
+  animation: cursor 1s infinite;
+}
+@keyframes cursor {
+  0% { opacity: 0; }
+  50% { opacity: 1; }
+  100% { opacity: 0; }
 }

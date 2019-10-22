@@ -42,7 +42,7 @@ const Layout = ({ children }) => (
         <Content>
           <main>{children}</main>
           <Footer>
-            © {new Date().getFullYear()}
+            © {new Date().getFullYear()} All rights reserved.
             {` `}
           </Footer>
         </Content>

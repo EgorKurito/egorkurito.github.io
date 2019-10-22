@@ -46,7 +46,10 @@ const LandingBio = () => (
     render={data => (
       <OuterContainer>
         <Container>
-          <NameHeader>{data.site.siteMetadata.title}</NameHeader>
+          <NameHeader>
+            {data.site.siteMetadata.title}
+            <span class="cursor" />
+          </NameHeader>
           <Description>{data.site.siteMetadata.subtitle}</Description>
             <div align="center" class="socialbtns">
               <ul>
