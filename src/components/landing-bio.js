@@ -47,18 +47,19 @@ const LandingBio = () => (
       <OuterContainer>
         <Container>
           <NameHeader>
+            <i class="fa fa-angle-right"></i>
             {data.site.siteMetadata.title}
             <span class="cursor" />
           </NameHeader>
           <Description>{data.site.siteMetadata.subtitle}</Description>
-            <div align="center" class="socialbtns">
-              <ul>
-                <li><a href={data.site.siteMetadata.facebook} class="fa fa-lg fa-facebook" target="_blank"></a></li>
-                <li><a href={data.site.siteMetadata.vk} class="fa fa-lg fa-vk" target="_blank"></a></li>
-                <li><a href={data.site.siteMetadata.github} class="fa fa-lg fa-github" target="_blank"></a></li>
-                <li><a href={data.site.siteMetadata.linkedin} class="fa fa-lg fa-linkedin" target="_blank"></a></li>
-              </ul>
-            </div>
+          <div align="center" class="socialbtns">
+            <ul>
+              <li><a href={data.site.siteMetadata.facebook} class="fa fa-lg fa-facebook" target="_blank"></a></li>
+              <li><a href={data.site.siteMetadata.vk} class="fa fa-lg fa-vk" target="_blank"></a></li>
+              <li><a href={data.site.siteMetadata.github} class="fa fa-lg fa-github" target="_blank"></a></li>
+              <li><a href={data.site.siteMetadata.linkedin} class="fa fa-lg fa-linkedin" target="_blank"></a></li>
+            </ul>
+          </div>
         </Container>
       </OuterContainer>
     )}

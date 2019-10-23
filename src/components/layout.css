@@ -640,7 +640,7 @@ a, a:hover {
 
 .socialbtns .fa {
 	width: 45px;
-    height: 45px;
+  height: 45px;
 	color: #000;
 	background-color: #FFF;
 	border: 1px solid #000;
@@ -655,6 +655,10 @@ a, a:hover {
 	color: #ffffff;
 	background-color: #000;
 	border: 1px solid #000;
+}
+
+.fa-angle-right {
+  margin: 10px;
 }
 
 .cursor {

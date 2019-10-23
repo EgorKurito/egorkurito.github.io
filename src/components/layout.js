@@ -23,6 +23,7 @@ const Content = styled.div`
 const Footer = styled.footer`
   display: flex;
   justify-content: center;
+
 `
 
 const Layout = ({ children }) => (
@@ -41,11 +42,11 @@ const Layout = ({ children }) => (
         <Header siteTitle={data.site.siteMetadata.title} />
         <Content>
           <main>{children}</main>
-          <Footer>
-            © {new Date().getFullYear()} All rights reserved.
-            {` `}
-          </Footer>
         </Content>
+        <Footer>
+          © {new Date().getFullYear()} All rights reserved.
+          {` `}
+        </Footer>
       </>
     )}
   />
