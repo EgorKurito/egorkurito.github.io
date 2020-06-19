@@ -5,7 +5,7 @@ import SEO from "../components/seo"
 
 const About = () => (
   <Layout>
-    <SEO title="About" keywords={[`gatsby`, `application`, `react`]} />
+    <SEO title="About" keywords={[`egorkurito`, `blog`, `python`, `AI`]} />
     <h1>About</h1>
     <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
   </Layout>

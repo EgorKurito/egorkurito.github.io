@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     title: `Egor Kurito`,
     subtitle: `Developer & AI Researcher`,
-    description: `Just do it!`,
+    description: `Egor Kurito blog`,
     author: `@egorkurito`,
     github: `https://github.com/EgorKurito`,
     vk: `https://vk.com/egorkurito`,

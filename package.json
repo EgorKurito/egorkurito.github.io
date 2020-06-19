@@ -1,7 +1,7 @@
 {
-  "name": "gatsby-starter-julia",
+  "name": "Egor Kurito blog",
   "private": true,
-  "description": "Just do it",
+  "description": "Egor Kurito blog",
   "version": "0.1.0",
   "author": "Egor Kurito",
   "dependencies": {
